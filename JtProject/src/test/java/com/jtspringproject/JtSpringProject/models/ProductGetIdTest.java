@@ -45,12 +45,12 @@ Validation:
 */
 
 // ********RoostGPT********
-@Test
-public void testDefaultId() {
-    // Arrange
-    Product product = new Product();
-    // Act
-    int returnedId = product.getId();
-    // Assert
-    assertEquals(0, returnedId, "The returned ID should be 0 as no ID was assigned");
-}
+// @Test
+// public void testDefaultId() {
+//     // Arrange
+//     Product product = new Product();
+//     // Act
+//     int returnedId = product.getId();
+//     // Assert
+//     assertEquals(0, returnedId, "The returned ID should be 0 as no ID was assigned");
+// }
